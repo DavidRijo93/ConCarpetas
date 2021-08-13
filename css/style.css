@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+ background:url(../img/backgraond.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+ background-attachment: fixed;
+
+}
+body:before{
+  content: " ";
+  background:rgba(67, 9, 226, 0.534) ;
+  position:absolute;
+  width: 100%;
+  min-height: 160vh; 
+  z-index: -1;
+}
+/* NAVBAR MENU */
+.wrapper{
+  background: #be0668;
+  padding: 25px 0;
+  color: #fff;
+}
+.logo{
+  color: #fff;
+  position: relative;
+  font-size: 40px;
+  font-weight: bold;
+  font-style: italic;
+}
+.logo img{
+  width: 7%;
+}
+.definition{
+  position: absolute;
+  right:10px;
+  top: 5px;
+  
+}
+
+.definition ul li{
+  font-style: italic;
+  color: #fff;
+  display: block;
+  font-weight: bold;
+  padding: 0 5em;
+  position: relative;
+  top: 20px;
+  font-size: 20px;
+}
+
+/* BODY CONTINER */
+.body-continer{
+  position:relative ;
+  top: 25px;
+  padding: 50px 0;
+  padding-bottom: 150px;
+
+}
+.body-continer h2,h4,.btn-consulta{
+width: 50%;
+color: #eeebeb;
+padding: 0 150px;
+}
+.body-continer .btn-consulta li{
+ display: block;
+}
+.body-continer .btn-consulta li a{
+  font-size: 20px;
+  color: #fff;
+} 
+.body-continer .btn-consulta li a:hover{
+  color: #bbb6b6;
+} 
+.btn-green{
+ font-size: 30px;
+ color: #df1182;
+ font-weight: bold;
+}
+.btn-blue{
+  font-size: 30px;
+  color: #dcdf11;
+  font-weight: bold;
+}
+
+/* footer */
+
+.footer{
+  width: 100%;
+  height: 25vh;
+  background: #ffffff;
+  padding: 25px 0;
+  position: relative;
+  top: 15em;
+  left: 0;
+
+}
+.contact-footer{
+  position: absolute;
+  right: 5em;
+  bottom: 0em;
+}
+.contact-footer label{
+  font-weight: bold;
+  font-size: 20px;
+  color: #070707;
+}
+.contact-footer ul li{
+  position: relative;
+  display: block;
+  color: #000000;
+}
+ .logo-footer{
+  color: #000;
+  font-size: 80px;
+  font-weight: bold;
+  font-style: italic;
+}
+.logo-footer img{
+  width: 10%;
+  background: #000000fb;
+  border-radius: 15px;
+  position: relative;
+  margin-left: 25px;
+}
+.copyright{
+  background: #000;
+  color: #eeebeb;
+  text-align: center;
+  position: relative;
+  padding: 15px 0;
+  top: 15em;
+}

@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+}
+/* NAVBAR MENU */
+.wrapper{
+    background: #be0668;
+    padding: 25px 0;
+    color: #fff;
+  }
+  .logo{
+    color: #fff;
+    position: relative;
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
+  }
+  .logo img{
+    width: 7%;
+  }
+  .logo a{
+      color: #fff;
+      text-decoration: none;
+  }
+  .definition{
+    position: absolute;
+    right:10px;
+    top: 5px;
+    
+  }
+  
+  .definition ul li{
+    font-style: italic;
+    color: #fff;
+    display: block;
+    font-weight: bold;
+    padding: 0 5em;
+    position: relative;
+    top: 20px;
+    font-size: 20px;
+  }
+
+
+/* footer */
+
+.footer{
+    width: 100%;
+    height: 25vh;
+    background: #ffffff;
+    padding: 25px 0;
+    position: relative;
+    top: 15em;
+    left: 0;
+  
+  }
+  .contact-footer{
+    position: absolute;
+    right: 5em;
+    bottom: 0em;
+  }
+  .contact-footer label{
+    font-weight: bold;
+    font-size: 20px;
+    color: #070707;
+  }
+  .contact-footer ul li{
+    position: relative;
+    display: block;
+    color: #000000;
+  }
+   .logo-footer{
+    color: #000;
+    font-size: 80px;
+    font-weight: bold;
+    font-style: italic;
+  }
+  .logo-footer img{
+    width: 10%;
+    background: #000000fb;
+    border-radius: 15px;
+    position: relative;
+    margin-left: 25px;
+  }
+  .copyright{
+    background: #000;
+    color: #eeebeb;
+    text-align: center;
+    position: relative;
+    padding: 15px 0;
+    top: 15em;
+  }
+
+  
